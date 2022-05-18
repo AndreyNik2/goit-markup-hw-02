@@ -61,6 +61,11 @@ letter-spacing: 0.02em;
 color: #188ce8;
 }
 
+.portfolio-filter-item .portfolio-filter-button.current{
+background-color: #188ce8;
+color: var(--primary-background-color);
+}
+
 .contactus-item-link{
     color: var(--grey-text-color);
 }
