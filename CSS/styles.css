@@ -24,7 +24,6 @@ body {
 /* Logo */
 .logo{
 font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -38,8 +37,6 @@ color: var(--active-blue-color);
 
 /* Navigation */
 .nav .contactus-list{
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -68,7 +65,6 @@ letter-spacing: 0.02em;
 
 /* Hero */
 .hero>.hero-title{
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -79,8 +75,7 @@ color: var(--primary-white-color);
 background-color: var(--grey-text-color);
 }
 
-.hero-title-btn{
-font-style: normal;
+.hero-btn{
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88x;
@@ -90,11 +85,11 @@ text-align: center;
 letter-spacing: 0.06em;
 color: var(--primary-white-color);
 background-color: var(--active-blue-color);
+cursor: pointer;
 }
 
 /* Excellence */
 .excellence>.ex-list{
-font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -112,7 +107,6 @@ color:var(--grey-text-color);
 
 /* Jobs & Team*/
 .jobs-title, .team-title{
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -121,7 +115,6 @@ color:var(--primary-text-color)
 }
 
 .team-list{
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
@@ -139,9 +132,7 @@ color: var(--grey-text-color);
 
 /* Footer */
 
-.footer-adress, .footer-mail, .footer-tel{
-font-style: normal;
-font-weight: 400;
+.footer-adress, .footer-mail, .footer-tel{;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -155,13 +146,13 @@ background-color: var(--grey-text-color);
 
 /* Filter */
 .portfolio-filter-button{
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
 background-color: #F5F4FA;
 color: var(--primary-text-color);
+cursor: pointer
 }
 
 .portfolio-filter-button:hover, .portfolio-filter-button:focus{
@@ -173,8 +164,6 @@ color: var(--primary-white-color);
 
 /* Portfolio */
 .portfolio-title{
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
@@ -183,8 +172,6 @@ color: var(--primary-text-color);
 }
 
 .portfolio-text{
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
