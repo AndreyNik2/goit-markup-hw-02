@@ -101,9 +101,6 @@ text-transform: uppercase;
 color: var(--primary-text-color);
 }
 
-.ex-text{
-color:var(--grey-text-color);
-}
 
 /* Jobs & Team*/
 .jobs-title, .team-title{
@@ -126,9 +123,6 @@ color: var(--primary-text-color);
 color: var(--primary-text-color);
 }
 
-.team-item-text{
-color: var(--grey-text-color);
-}
 
 /* Footer */
 
