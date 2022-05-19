@@ -106,6 +106,7 @@ background-color:#188ce8;
 
 .ex-title{
 font-weight: 700;
+text-transform: uppercase;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
@@ -146,14 +147,23 @@ letter-spacing: 0.03em;
 
 /* Footer */
 
-.footer-adress, .footer-mail, .footer-tel{
+.footer-adress{
 font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color: var(--primary-background-color);
 background-color: var(--grey-text-color);
 }
+
+.footer-mail, .footer-tel{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: var(--grey-text-color);
+    }
 
 
 
